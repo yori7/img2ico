@@ -1,0 +1,5 @@
+#!bin/bash
+
+SCRIPT_DIR=$(cd $(dirname $0); pwd)
+python $SCRIPT_DIR/../src/img2ico.py $1 $2
+
